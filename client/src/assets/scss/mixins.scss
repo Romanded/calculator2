@@ -1,0 +1,31 @@
+@mixin select {
+  width: 295px;
+  height: 60px;
+  background: rgba(183, 186, 203, 0.20);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen {
+    @media (max-width: 414px) {
+      width: 343px;
+    }
+  }
+}
+@mixin select-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin reset-input {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+@mixin default-font {
+  color: #000;
+  font-family: "Futura PT Normal", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-variant: small-caps;
+}

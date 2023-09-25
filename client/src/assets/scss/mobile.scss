@@ -1,0 +1,107 @@
+@media screen {
+  @media (max-width: 1440px) {
+    .room-img {
+      width: 529px;
+    }
+    #app {
+      background-position: -90px -135px;
+    }
+  }
+  @media (max-width: 1024px) {
+    .room-img {
+      width: 266px;
+    }
+    .header {
+      font-size: 36px;
+    }
+    #app {
+      background-position: -376px -211px;
+    }
+  }
+  @media (max-width: 768px) {
+    .room-img {
+      width: 0;
+    }
+    #app {
+      background: none;
+    }
+    .header {
+      max-width: 700px;
+    }
+  }
+  @media (max-width: 414px) {
+    .header {
+      font-size: 26px;
+    }
+    form.container.first {
+      margin-bottom: 10px;
+      flex-direction: column;
+      .input-container {
+        margin-bottom: 10px;
+        flex-direction: column;
+        .input {
+          &:first-child {
+            margin-right: 0;
+            margin-bottom: 10px;
+          }
+        }
+      }
+      .select-container {
+        margin-bottom: 10px;
+        flex-direction: column;
+        .select {
+          &:first-child {
+            margin-right: 0;
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+    .order-btn-container {
+      display: flex;
+      button {
+        width: 168px;
+        height: 50px;
+        font-size: 12px;
+        &:first-child {
+          margin-right: 16px;
+        }
+      }
+    }
+    .calculator-container {
+      .calculator {
+        padding: 23px 10px 0 10px;
+        box-shadow: none;
+        .total {
+          margin-bottom: 10px;
+          flex-direction: column;
+          align-items: flex-start;
+          h2 {
+            font-size: 26px;
+            .span {
+              font-size: 26px;
+            }
+          }
+        }
+      }
+    }
+    .input {
+      form {
+        .text-input {
+          width: 243px;
+        }
+      }
+    }
+    .select {
+      div {
+        .option-select {
+          width: 283px;
+        }
+      }
+    }
+    #container {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}
